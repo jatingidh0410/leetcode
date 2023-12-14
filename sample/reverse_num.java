@@ -1,3 +1,4 @@
+// reverse the num
 class Solution {
     public int reverse(int x) {
         int reverse = 0;
@@ -13,7 +14,6 @@ class Solution {
             reverse = reverse * 10 + lastDigit;
             x /= 10;
         }
-
         return reverse;
     }
 }
