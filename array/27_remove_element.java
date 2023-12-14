@@ -7,6 +7,7 @@ Set nums[index] to nums[i] to store the non-target element at the current index 
 Increment index by 1 to move to the next position for the next non-target element.
 Continue this process until all elements in the array have been processed.
 Finally, return the value of index, which represents the length of the modified array. */
+
 class Solution {
     public int removeElement(int[] nums, int val) {
         int index = 0;
